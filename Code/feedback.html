@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to your stylesheet -->
+</head>
+<body>
+  <h1>Feedback Survey</h1>
+  
+  <form action="#" method="post">
+    <!-- Name -->
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <!-- Rating Question -->
+    <label for="rating">How would you rate your experience?</label><br>
+    <input type="radio" id="excellent" name="rating" value="Excellent">
+    <label for="excellent">Excellent</label><br>
+    <input type="radio" id="good" name="rating" value="Good">
+    <label for="good">Good</label><br>
+    <input type="radio" id="average" name="rating" value="Average">
+    <label for="average">Average</label><br>
+    <input type="radio" id="poor" name="rating" value="Poor">
+    <label for="poor">Poor</label><br><br>
+
+    <!-- Feedback Question -->
+    <label for="feedback">What did you like about our website?</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback here" required></textarea><br><br>
+
+    <!-- Multiple Choice Question -->
+    <label for="suggestions">What features would you like to see next?</label><br>
+    <input type="checkbox" id="feature1" name="feature1" value="New themes">
+    <label for="feature1">New themes</label><br>
+    <input type="checkbox" id="feature2" name="feature2" value="More resources">
+    <label for="feature2">More resources</label><br>
+    <input type="checkbox" id="feature3" name="feature3" value="Community forum">
+    <label for="feature3">Community forum</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit Feedback">
+  </form>
+  
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Page</title>
+  <style>
+    /* Paste the CSS code here directly */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rebeccapurple;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: skyblue;
+    }
+
+    form {
+      background-color: lightyellow;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    label {
+      font-size: 16px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: dodgerblue;
+      color: pink;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ff6347;
+    }
+  </style>
+</head>
+
