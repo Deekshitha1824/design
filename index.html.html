@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<header class="header-container">
+    <img src="logohome.png.PNG" alt="Logo" class="logo">
+    <style>
+    img {
+        margin: 10px;  /* Adds space around the image */
+    } 
+    </style>
+
+    <h1 class="school-name">The Aga Khan Academy Mombasa</h1>
+</header>
+
+<style>
+
+    /* General styles for the navbar */
+nav {
+  background-color: #333; /* Dark background for navbar */
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points from list */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aligns list items horizontally */
+  justify-content: center; /* Centers the navbar links */
+}
+
+li {
+  margin: 0 15px; /* Adds space between the links */
+}
+
+a {
+  color: white; /* White text color for links */
+  text-decoration: none; /* Removes underline */
+  font-size: 16px; /* Adjusts font size */
+}
+
+a:hover {
+  color: #ff6347; /* Changes color on hover */
+}
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .school-name {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FFA08A;
+        text-align: center;
+    }
+
+    header {
+        background-color: #FFA08A;
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    nav {
+        background: #FD7C6E;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    footer {
+        background: #FFA08A;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #FD7C6E; /* Change background color here */
+        min-width: 100px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .dropdown-content a {
+        color: white; /* Change text color to white */
+        padding: 10px;
+        display: block;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #FF8E72; /* Change hover background color */
+    }
+
+    h1 {
+        margin-top: 30px;  /* Adds space above */
+        margin-bottom: 20px; /* Adds space below */
+    }
+
+    p {
+        margin: 10px 80px;  /* 10px top & bottom, 50px left & right */
+    }
+
+    nav {
+        width: 100%; /* Adjust this value to suit your layout */
+        padding: 10px 20px; /* Adjust padding for the navbar */
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around; /* Or another value like flex-start or center */
+    }
+
+    nav ul li {
+        padding: 5px 10px; /* Adjust individual list item padding */
+    }
+
+    .site-header {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 5px 0;
+        background-color: #f8f9fa; /* Light background */
+        color: #333; /* Dark text */
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: pink;
+        min-width: 100px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px;
+        display: block;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+</style>
+
+</head>
+<body>
+
+   <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="#" onclick="toggleMenu()">Menu</a>
+      <div id="menuDropdown" class="dropdown-content">
+        <a href="schoolguide.html">School Guide</a>
+        <a href="chatbox.html">Chat with AI</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="tips.html">Tips</a>
+      </div>
+    </li>
+    <li><a href="feedback.html">Feedback</a></li>
+  </ul>
+</nav>
+
+</nav>
+    </nav>
+    <div class="container">
+        <img src="academy-mombasa.jpg" alt="Coral Reef Image" style="width: 75%; height: auto; display: block; margin: auto; border-radius: 10px;">
+    </div>
+
+    <div class="welcome-text">
+      <p>Welcome to our website! This platform is designed to help new joiners feel at home and foster a sense of belonging. Through a variety of interactive tools, resources, and personalized experiences, we aim to make your transition smooth and exciting. Whether it’s connecting with fellow students, learning about school culture, or finding useful tips, we’re here to support you in every step of your journey! Our goal is to create a warm, welcoming environment where you can discover everything you need to thrive and succeed. From virtual tours of the school to tips on managing your studies, we’ve got you covered. Embrace the experience, and know that you’re never alone – we’re all here to make sure you feel supported, confident, and ready to take on the new chapter ahead!</p>
+    </div>
+
+    <footer>© 2025 Our School. All rights reserved.</footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menuDropdown");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
